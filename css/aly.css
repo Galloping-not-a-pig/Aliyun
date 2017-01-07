@@ -1,0 +1,440 @@
+/*
+* @Author: QCF
+* @Date:   2016-12-09 10:18:12
+* @Last Modified by:   QCF
+* @Last Modified time: 2016-12-20 14:18:32
+*/
+
+/* 字体的引入 */
+@font-face
+{
+	font-family: 'aly';
+	src: url('../fonts/aliyun-console-font.eot') format('embedded-opentype'),
+		
+		 url('../fonts/aliyun-console-font.ttf') format('truetype'),
+		 url('../fonts/aliyun-console-font.woff') format('woff');
+}
+[class^="icon-"],[class*=" icon-"]
+{
+	font-family: 'aly'
+}
+
+/* 上面的阿里云 */
+.icon-logo-new:before {
+    content: "\e97f";
+}
+/* @media (max-width:1307px) { 
+
+.navbar-nav1{
+	display: none !important;
+ }
+
+} */
+/* 
+重新定义样式 */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+	
+
+.box {
+	height: 1500px;
+	width: 1500px;
+	border:2px solid red;
+	margin:0 auto;
+}
+.navigation{
+	height:1500px;
+	width:200px;
+	float:left;
+	background-color: yellow;
+	
+}
+ body .navbar {
+	margin-bottom:0px;
+	border:0px;
+
+}
+.container-fluid{
+	 background-color:#0099CC; 
+	
+}
+/*  .navbar .container-fluid a{
+color:#fff;
+} */
+/* 0徽章样式 */
+.navbar-nav .topbar-btn-notice-num{
+	display:inline-block;
+	line-height:16px;
+	width:17px;
+	height:20px;
+	padding:2px 5px;
+	border-radius:4px;
+	background-color:#0087B4;
+	text-align:center;
+	color:#00ACE9;
+}
+ .navbar-header .navbar-brand span{
+	color:#fff;
+	font-size: 20px;
+}
+ .container-fluid>#bs-example-navbar-collapse-1>ul>li a{
+ 	font-size:14px;
+color:#fff;
+}
+
+.navbar>.container-fluid>#bs-example-navbar-collapse-1>ul>li:hover{
+	/*  color:#333;  */
+	background-color:#008FBF;
+
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1>ul>li .add{
+	background-color:#fff;
+	color:#333;
+}
+/* .navbar>.container-fluid>#bs-example-navbar-collapse-1>ul>.dropdown a:hover{
+	color:#333;
+	background-color:#fff;
+
+} */
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .ul1{
+	min-width:70px;
+	width:101px;
+	padding:0px;
+
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .ul1 li{
+	display:block;
+	width:101px;
+	height:40px;
+	border:1px solid #f0f0f0;
+	margin:0;
+	padding:0;
+
+}
+ .navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .ul1 li a{
+	color:#333333;
+	font-size: 12px;
+	display:block;
+    width:99px;
+	height:38px;
+} 
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .ul1 li a:hover{
+	background-color:#f0f0f0;
+	color:#333;
+} 
+/* 三个下拉列表的样式 */
+ .navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1{
+	max-width:1000px;
+	width:973px;
+	height:610px;
+	border:1px solid #f0f0f0;
+	background-color:#fff;
+
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1 div{
+	float:left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1 div ul{
+	margin-top: 5px;
+    padding-bottom: 3px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1 div li{
+	height:28px;
+	width:174px;
+	margin-bottom: 2px;
+	font-size:12px;
+	border:0px;
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1 div li:hover{
+
+background-color:#F2F2F2;
+	}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1 div li span{
+	margin-right: 5px;
+	line-height: 28px;
+}
+.navbar>.container-fluid>#bs-example-navbar-collapse-1 .nav .dropdown .dul1 div p{
+	font-size:14px;
+	font-weight: bolder;
+	color:#999999;
+}
+.dul2{
+
+}
+.dul3{
+
+}
+
+button{
+	outline:none;
+
+}
+
+
+/* 左侧导航栏 */
+.navbar1{
+	margin-top:0px;
+	border:0px;
+	position:absolute;
+	top:50px;
+	left:0;
+}
+.div1 {
+        width: 180px;
+        height: 850px;
+      /*   border: 1px solid black; */
+    }
+    .headiv{
+        width: 180px;
+        height: 30px;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+    }
+   .navbar1 div{
+        margin-bottom: 0px;
+        background-color: #293038;
+        margin:0px;
+        border:0px;
+    }
+     .well ul{
+     	border: 0px;
+     	width:100%;
+     }
+.well li{
+        list-style: none;
+       
+        margin-left: -21px;
+        color: #fff;
+        width: 180px;
+    }
+   .well li:hover{
+        background-color: #37424F;
+    }
+   .navbar1 .div1  button:hover{
+   	background-color:#37424F;
+
+   }
+    
+
+    .navbar1 .div1 .but1{
+        display: block;
+        width: 180px;
+        border: 0;
+        height: 40px;
+        border-radius: 0;
+        background-color:#22282E;
+        margin: 0px;
+        outline: none;
+        
+    }
+    .navbar1 .div1 .but2{
+        display: block;
+        width: 180px;
+         border: 0px;
+         height: 40px;
+        border-radius: 0;
+        background-color:#22282E;
+        margin:0px;
+        outline: none;
+         
+    }
+    #collapseExample{
+      
+        width: 180px;
+    }
+    #collapseExample2{
+           width: 180px;
+    }
+    .well{
+    	width:100%;
+        margin-bottom: 0px;
+        background-color:#293038;
+        border: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .sp1{
+       display: inline-block;
+       height: 40px;
+       width: 50px;
+       text-align: center;
+       line-height: 40px;
+    }
+     .sp2{
+        display: inline-block;
+       height: 40px;
+       width: 130px;
+     line-height: 40px;
+     font-size: 13px;
+    }
+
+/*   旋转跳跃 */
+.navbar1 .div1 .btn .otransform{
+transform:rotate(-90deg);
+
+transition: 100ms;
+}
+.navbar1 .div1 .btn .ctransform{
+transform:rotate(0deg);
+
+transition: 100ms;
+}
+/* 上面导航栏里面的旋转 */
+
+.dropdown .dropdown-toggle .htransform{
+	transform:rotate(-180deg);
+	transition: 100ms;
+
+}
+
+
+/* echarts  的style */
+.navbar1{
+	
+	background-color:#d9dbdf;
+}
+.echarts{
+
+	/* position: absolute;
+	left: 180px;
+	top: 50px; */
+	/* float:left;
+	width:calc(100vw - 180px - 17px);
+	border:1px solid red; */
+	height:1000px;
+	margin-left:180px;
+	margin-right:245px;	
+
+
+}
+ .echartsTou{
+
+	height:50px;
+	/* border:1px solid red; */
+	background-color:#fff;
+	margin-right: 30px;
+
+}
+.echartsTou>span{
+	font-size: 18px;
+	line-height:50px;
+}
+.echartsTou button{
+	margin-top:10px;
+	color:#707070;
+	float:right;
+	display:inline-block;
+	width:70px;
+	height:30px;
+	margin-right:20px;
+	border-radius:5px;
+	background-color:#F7F7F7;
+	font-size:16px;
+	font-weight:bold;
+	border:0px;
+
+}
+
+.echarts .container{
+	width:100%;
+
+	
+}
+.echarts .container .row{
+	width:100%;
+	height:700px;
+	margin:0px;
+	
+}
+.echarts  .echartsRight{
+	width:245px;
+	
+	height:800px;
+
+	position:absolute;
+	top:50px;
+	right: 0px;
+}
+.echarts  .echartsRight .Rspano{
+	font-size: 15px;
+	font-weight:bolder;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+}
+.echarts  .echartsRight .Rspanor{
+	float:right;
+	color:blue;
+	font-size:8px;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+}
+.echarts  .echartsRight p{
+	margin-top:10px;
+}
+.echartsRight  ul{
+	border-top:1px solid #EAEDF1;
+}
+ .echartsRight  ul li{
+	padding:10px 0px;
+}
+.echarts  .echartsRight .Rsapnt{
+	display:inline-block;
+	width:40px;
+	height:20px;
+	background-color:#F9FAFC;
+	border-radius:4px;
+	text-align:center;
+	line-height:20px;
+	color:#333;
+	fon-size:6px;
+}
+
+
+@media(min-width:1200px){
+.echarts .container .row .echartDiv{
+	width:50%;
+	float:left;
+	/* border:1px solid red; */
+	min-width:300px;
+	height:400px;
+}
+}
+
+@media (max-width: 1200px){
+.echarts .container .row .echartDiv {
+    width: 100%;
+    height:212.5px;
+}
+.echartsRight{
+	display:none;
+}
+.echarts .echartsTou{
+	display:none;
+}
+.echarts{
+	margin-right:0px;
+}
+}
+/* 二维码 */
+.nav li .Ewm{
+	position:relative;
+}
+.nav  li .iphone{
+	position:absolute;
+	top:50px;
+	left:-7px;
+margin:0 auto;
+	z-index: 999;
+	display:none;
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/aly.css">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-name.css">
+</head>
+
+<body>
+    <!--   头部导航条开始 -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="icon-logo1 icon-logo-new"></span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">管理控制台</a></li>
+                    <!--  第一个下拉列表 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品与服务 <span class="caret"></span></a>
+                        <ul class="dropdown-menu ul1 dul1">
+                            <!--    第一块 -->
+                            <div style="width: 194px;height: 610px;">
+                                <p>弹性计算</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-ecs"></span><span>云服务器ECS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ess"></span><span>弹性伸缩</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-cs icon-logo1"></span><span>容器服务</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ros icon-logo1"></span><span>资源编排</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-hpc icon-logo1"></span><span>高性能计算</span></li>
+                                </ul>
+                                <p>数据库</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-rds"></span> <span>云数据库RDS版</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo2 icon-mongodb"></span> <span>云数据库MongoDB版</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-redisa"></span> <span>云数据库Redis版</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ocs"></span> <span>云数据库Memcache版</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-petadata"></span> <span>PB级云数据库Petadata</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-gpdb icon-logo1"></span> <span>云数据库HybridDB版</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-logo-new"></span> <span>云数据库OceanBase</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ads"></span> <span>分析型数据库</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-dts"></span> <span>数据传输</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo2  icon-dms"></span> <span>数据管理</span></li>
+                                </ul>
+                            </div>
+                            <!-- 第二块 -->
+                            <div style="width: 194px;height: 610px;">
+                                <p>存储与CDN</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-oss"></span> <span>对象存储OSS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ots"></span> <span>表格存储</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-oas"></span> <span>归档存储</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-mqs"></span> <span>消息服务</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-cdn"></span> <span>CDN</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-nas"></span> <span>文件存储</span></li>
+                                </ul>
+                                <p>网络</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-slb"></span><span></span>负载均衡</li>
+                                    <li><span class="topbar-nav-item-icon icon-vpc"></span><span></span> 专有网络 vpc</li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-eip"></span><span></span>弹性公用网IP</li>
+                                    <li><span class="topbar-nav-item-icon icon-expressconnect icon-logo1"></span><span>高速通道</span></li>
+                                </ul>
+                                <p>大规模计算</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-logo-new"></span> <span>数加控制台</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-odps"></span> <span>大数据计算服务</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-batchcompute"></span> <span>批量计算</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-dpc"></span> <span>采云间DPC</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo2 icon-emr"></span> <span>E-MAPReduce</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-cdp"></span> <span>数据集成</span></li>
+                                </ul>
+                            </div>
+                            <!-- 
+第三块 -->
+                            <div style="width: 194px;height: 610px;">
+                                <p>云盾</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-sas icon-logo1"></span> <span>态势感知</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-aegis icon-logo1"></span> <span>服务器安全（安骑士）</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ddos icon-logo1"></span> <span>DDoS防护</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-waf icon-logo1"></span> <span>Web应用防火墙</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-xianzhi icon-logo1"></span> <span>先知（安全情报）</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-mss icon-logo1"></span> <span>安全管家</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-hsm icon-logo1"></span> <span>加密服务</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-lvwang icon-logo1"></span> <span>绿网</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-antifraud icon-logo1"></span> <span>数据风控</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-yundunzhengshu icon-logo1"></span> <span>证书服务</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-mobsec icon-logo1"></span> <span>移动安全</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-sppc icon-logo1"></span> <span>合作伙伴产品</span></li>
+                                </ul>
+                                <p>监控与管理</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-yunjiankong"></span> <span>云监控</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ram"></span> <span>访问监控</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-actiontrail icon-logo1"></span> <span>操作审计</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-kms"></span> <span>秘钥管理服务</span></li>
+                                </ul>
+                            </div>
+                            <!-- 
+第四块 -->
+                            <div style="width: 194px;height: 610px;">
+                                <p>应用服务</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-sls"></span> <span>日志服务</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-opensearch"></span> <span>开放搜索</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-pts"></span> <span>性能测试服务PTS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-directmail icon-logo1"></span> <span>邮件推送</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-apigateway icon-logo1"></span> <span>API网关</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-toolsimage"></span> <span>云市场</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-iot2"></span> <span>物联网套件</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-logo-new"></span> <span>短信服务</span></li>
+                                </ul>
+                                <p>互联网中间件</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-edas"></span> <span>企业级分布应用服务EDAS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-ons"></span> <span>消息队列</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-drds"></span> <span>分布式关系型数据库DRDS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-csb icon-logo1"></span> <span>云服务总线</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-logo-new"></span> <span>业务实时监控服务</span></li>
+                                </ul>
+                            </div>
+                            <!-- 
+                        第五块 -->
+                            <div style="width: 194px;height: 610px;">
+                                <p>移动与视频服务</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-mas"></span> <span>移动数据分析</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-cps"></span> <span>移动推送</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-logo-new"></span> <span>HTTPDNS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-mts"></span> <span>媒体转码</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-vod"></span> <span>视频点播</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-livevideo"></span> <span>视频直播</span></li>
+                                </ul>
+                                <p>域名与网站（万网）</p>
+                                <ul>
+                                    <li><span class="topbar-nav-item-icon icon-yuming"></span> <span>域名</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-yunjiexi"></span> <span>云解析DNS</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-yunxunizhuji"></span> <span>云虚拟主机</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-qiyeyouxiang"></span> <span>企业邮箱</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-wo-sitebuild"></span> <span>标准建站</span></li>
+                                    <li><span class="topbar-nav-item-icon icon-logo1 icon-logo-new"></span> <span>弹性web托管</span></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+                <!--   导航栏的第二块右边块  -->
+                <ul class="nav navbar-nav  navbar-nav1 navbar-right hidden-md hidden-sm ">
+                    <li><a href="#"><i class="glyphicon glyphicon-search"></i>&nbsp;<span>搜索</span></a></li>
+                    <li><a href="#" class="Ewm"><i class="glyphicon glyphicon-phone"></i>&nbsp;<span>手机版</span>
+                     <div class="iphone">
+                    <img src="二维码.png" alt="">
+                        
+                    </div>
+                    </a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-bell"></i>&nbsp; <span class="topbar-btn-notice-num ng-binding topbar-btn-notice-num-zero" ng-class="{'topbar-btn-notice-num-zero':messages.total == 0}" ng-bind="messages.total">0</span></a>
+                    </li>
+                    <li><a href="#">Accesskeys</a></li>
+                    <!--     第二个下拉列表 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工单服务 <span class="caret"></span></a>
+                        <ul class="dropdown-menu ul1 dul2">
+                            <li><a href="#">我的工单</a></li>
+                            <li><a href="#">提交工单</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">备案</a></li>
+                    <li><a href="#">帮助与文档</a></li>
+                    <!--   第三个下拉列表 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>其他帮助</span> <span class="caret"></span></a>
+                        <ul class="dropdown-menu ul1 dul3">
+                            <li><a href="#">智能服务</a></li>
+                            <li><a href="#">人工服务</a></li>
+                            <li><a href="#">申诉</a></li>
+                            <li><a href="#">反馈意见</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- 头部导航条结束 -->
+    <!-- 左侧导航栏开始 -->
+    <nav class="navbar1">
+        <div ng-if="versionGreaterThan1_3_21" class="sidebar-fold ng-scope icon-unfold headiv" ng-class="{'icon-unfold': !isSidebarFold,'icon-fold':isSidebarFold}" ng-click="toggleSidebarStatus()" aliyun-console-spm="100" data-spm-click="gostr=/aliyun;locaid=d100;;" data-spm-anchor-id="5176.2020520001.102.d100"></div>
+        <div class="div1">
+            <button class="btn btn-primary but1" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="outline: none;">
+                <span class="sidebar-title-icon icon-arrow-down pull-left otransform"></span><span class="sp0">产品与服务</span>
+                <a class="icon-setup ng-isolate-scope pull-right" aliyun-console-sidebar-manage="" picked-items="productPreference" items="products" type="product" requesturl="navConfig.requestUrl.setUserPreference" title="自定义产品与服务快捷入口" locale="" spm-id="102"></a>
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="well">
+                    <ul>
+                        <li><span class="sp1 icon-ecs"></span><span class="sp2">云服务器ECS</span></li>
+                        <li><span class="sp1 icon-rds"></span><span class="sp2">云数据库RDS版</span></li>
+                        <li><span class="sp1 icon-slb"></span><span class="sp2">负载均衡</span></li>
+                        <li><span class="sp1 icon-redisa"></span><span class="sp2">云数据库Redis版</span></li>
+                        <li><span class="sp1 icon-yuming"></span><span class="sp2">域名</span></li>
+                        <li><span class="sp1 icon-yunjiexi"></span><span class="sp2">云解析DNS</span></li>
+                        <li><span class="sp1 icon-logo2 icon-mongodb"></span><span class="sp2">云数据库MongoDB版</span></li>
+                        <li><span class="sp1 icon-aegis icon-logo1"></span><span class="sp2">服务器安全<安骑士></span> </li>
+                        <li><span class=" sp1 icon-sas "></span><span class="sp2">态势感知</span></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="btn btn-primary but2" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" style="outline: none;">
+                <span class="icon-arrow-down pull-left otransform"></span>
+                <span class="sp3">用户中心</span>
+                <a class="icon-setup ng-isolate-scope pull-right" aliyun-console-sidebar-manage="" picked-items="servicePreference" items="services" type="service" requesturl="navConfig.requestUrl.setUserPreference" title="自定义用户中心快捷入口" locale="" spm-id="102"></a>
+            </button>
+            <div class="collapse" id="collapseExample2">
+                <div class="well">
+                    <ul>
+                        <li><span class="sp1 icon-account-2"></span><span class="sp2">账号管理</span></li>
+                        <li><span class="sp1 icon-expense"></span><span class="sp2">费用中心</span></li>
+                        <li><span class="sp1 icon-renew"></span><span class="sp2">续费中心</span></li>
+                        <li><span class="sp1 icon-invite"></span><span class="sp2">消息中心</span></li>
+                        <li><span class="sp1 icon-pen"></span><span class="sp2">工单管理</span></li>
+                        <li><span class="sp1 icon-bsn"></span><span class="sp2">备案管理</span></li>
+                        <li><span class="sp1 icon-yundun icon-sc"></span><span class="sp2">安全管控</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 左侧导航栏结束 -->
+    <!-- 表格部分 -->
+    <div class="echarts">
+        <div class="echartsTou">
+            <span>您目前共有100个实例，其中99个破损，还有1个无法运行</span>
+            <button><span class="icon-setup "></span>&nbsp;<span>设置</span></button>
+            <button><span>续费管理</span></button>
+            <button><span class="user-yq-icon"></span>&nbsp;<span>咨询</span></button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="first" class="echartDiv ">
+                </div>
+                <div id="second" class="echartDiv">
+                </div>
+                <div id="third" class="echartDiv ">
+                </div>
+                <div id="fourth" class="echartDiv">
+                </div>
+            </div>
+        </div>
+        <!--  右边栏 -->
+        <div class="echartsRight">
+            <p><span class="Rspano">安全情报</span> <span class="Rspanor">更多</span>
+            </p>
+            <ul>
+                <li><span class="Rsapnt">重磅</span><span>安全增强型ecs上线，安全无忧 </span></li>
+                <li><span class="Rsapnt">专题</span><span>吴瀚清：3分钟明白安全之道 </span></li>
+            </ul>
+            <p><span class="Rspano">我的社区</span></p>
+            <ul>
+                <li><span class="Rsapnt">热点</span><span>如丝般顺滑地从Windows迁移SQLServer数据库到Linux</span></li>
+                <li><span class="Rsapnt">热点</span><span>十分钟写个RPC框架 </span></li>
+                <li><span class="Rsapnt">热点</span><span>阿里技术协会(ATA)11月系列精选文集</span></li>
+            </ul>
+            <p><span class="Rspano">新解决方案发布</span></p>
+            <ul>
+                <li><span><img src="img/1.png" alt=""></span><span>电商解决方案</span>
+                    <br><span>
+                    十大电商解决方案，包含数据分析、视频直播、以图搜图等场景
+                </span></li>
+                <li><span><img src="img/2.png" alt=""></span><span>音视频解决方案</span>
+                    <br>
+                    <span>
+                    一站式提供“海量存储、高效分发、极速网络”等强大服务
+                </span></li>
+                <li><span><img src="img/3.png" alt=""></span><span>网站解决方案</span>
+                    <br>
+                    <span>
+                    降低因为难度和IT成本，保障网站安全性和稳定性
+                </span></li>
+                <li><span><img src="img/4.png" alt=""></span><span>APP解决方案</span>
+                    <br>
+                    <span>
+                    解决业务爆发式增长，复杂的移动安全挑战等问题
+   </span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
+    <script src="js/echarts.js"></script>
+    <!-- 头部导航条效果 -->
+    <script src="js/aly.js"></script>
+    <script src="js/es.js"></script>
+    <script>
+    myEcharts();
+    </script>
+</body>
+
+</html>
